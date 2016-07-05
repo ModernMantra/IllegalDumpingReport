@@ -1,25 +1,224 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ikona3.png" id="STy-3a-6G4">
+                                <rect key="frame" x="65" y="185" width="224" height="217"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mEy-GB-Q02">
+                                <rect key="frame" x="166" y="556" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="right_round.png"/>
+                                <connections>
+                                    <action selector="goAnotherController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kyn-5F-T3N"/>
+                                    <segue destination="9SH-aB-mDJ" kind="modal" modalTransitionStyle="flipHorizontal" id="kUo-w7-bK4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w8K-pJ-eG9" customClass="ATLabel">
+                                <rect key="frame" x="88" y="484" width="201" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="animatedLabel" destination="w8K-pJ-eG9" id="mDK-OT-CSX"/>
+                        <outlet property="buttonProperty" destination="mEy-GB-Q02" id="Nd1-lV-1fq"/>
+                        <outlet property="thinkGreenImage" destination="STy-3a-6G4" id="pzm-JQ-YOV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="193" y="184"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="Pf7-ci-4Qn">
+            <objects>
+                <viewController id="9SH-aB-mDJ" customClass="SecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fMb-zP-hTj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aUS-ze-KkQ">
+                                <rect key="frame" x="164" y="193" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="camera.png"/>
+                                <connections>
+                                    <action selector="takePhoto:" destination="9SH-aB-mDJ" eventType="touchUpInside" id="szI-Ri-xc9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oPT-Ds-zvW">
+                                <rect key="frame" x="164" y="436" width="54" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="info.png"/>
+                                <connections>
+                                    <action selector="info:" destination="9SH-aB-mDJ" eventType="touchUpInside" id="Og8-oF-idI"/>
+                                    <segue destination="hh6-eW-zc4" kind="modal" modalTransitionStyle="crossDissolve" id="RpL-us-zRi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Think Different, Think Green!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="smV-uD-XpJ">
+                                <rect key="frame" x="24" y="51" width="346" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="25"/>
+                                <color key="textColor" red="0.9882352941176471" green="0.75294117647058822" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AiT-OI-UM0">
+                                <rect key="frame" x="164" y="315" width="56" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="user_male_circle.png"/>
+                                <connections>
+                                    <action selector="showPolitician:" destination="9SH-aB-mDJ" eventType="touchUpInside" id="1cL-As-Rbh"/>
+                                    <segue destination="oUg-nF-Mbb" kind="modal" modalTransitionStyle="crossDissolve" id="ysc-WM-ikX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.15294117647058825" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="infoButton" destination="oPT-Ds-zvW" id="yj3-Tc-6g0"/>
+                        <outlet property="politiciansButton" destination="AiT-OI-UM0" id="NhX-fC-Rb3"/>
+                        <outlet property="takePhotoButton" destination="aUS-ze-KkQ" id="EqR-3f-j0m"/>
+                        <outlet property="textLabel1" destination="smV-uD-XpJ" id="AV4-mM-vXh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bEG-5Q-DPw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="608" y="184"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="Kng-n8-NhQ">
+            <objects>
+                <viewController id="hh6-eW-zc4" customClass="infoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5UV-8k-oyE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GWs-pU-ubx">
+                                <rect key="frame" x="20" y="44" width="37" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="back:" destination="hh6-eW-zc4" eventType="touchUpInside" id="kdL-3F-iNj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HaF-W7-mdG">
+                                <rect key="frame" x="51" y="110" width="281" height="458"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <string key="text">This application covers environmental issues and engagement fo community in order to improve the condition  of community and environment. Illegal dumps make big problems, so there is our app to help you. Simply take photo and automatically mail will be gnerated with taken photo and current coordinates of your location. Simply send the mail to responsible persons and mek your environment cleaner. Also there is list of all city majors responsible for our cleaner community. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.31372549019607843" green="0.74509803921568629" blue="0.79607843137254897" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.15294117647058825" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="GWs-pU-ubx" id="jiu-ay-kbL"/>
+                        <outlet property="infoLabel" destination="HaF-W7-mdG" id="flu-Jb-Ehw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RaD-LQ-f6i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1035" y="184"/>
+        </scene>
+        <!--Politician View Controller-->
+        <scene sceneID="FE1-j2-QkL">
+            <objects>
+                <viewController id="oUg-nF-Mbb" customClass="politicianViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6x5-tz-yCU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RsP-0I-GBg">
+                                <rect key="frame" x="25" y="38" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="backButton:" destination="oUg-nF-Mbb" eventType="touchUpInside" id="YAJ-7F-zGE"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PERSON2.png" id="EFQ-Jw-20R">
+                                <rect key="frame" x="-19" y="101" width="160" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PERSON3.png" id="1ki-xz-Wyu">
+                                <rect key="frame" x="-41" y="244" width="205" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person5.png" id="tV9-hF-o4v">
+                                <rect key="frame" x="-18" y="386" width="167" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kerimo.png" id="klu-tF-UN8">
+                                <rect key="frame" x="-32" y="535" width="186" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CITY MAJORS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qAT-Xc-4rN">
+                                <rect key="frame" x="134" y="35" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButtonProperty" destination="RsP-0I-GBg" id="XkI-m9-U54"/>
+                        <outlet property="cityMajors" destination="qAT-Xc-4rN" id="H4l-uV-00B"/>
+                        <outlet property="image1" destination="EFQ-Jw-20R" id="5Mf-AG-WhX"/>
+                        <outlet property="image2" destination="1ki-xz-Wyu" id="eDc-nd-5cu"/>
+                        <outlet property="image3" destination="tV9-hF-o4v" id="M9j-4C-fE0"/>
+                        <outlet property="image4" destination="klu-tF-UN8" id="RTt-bS-dgw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C6m-kn-Zw0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860" y="989"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="PERSON2.png" width="800" height="597"/>
+        <image name="PERSON3.png" width="1920" height="1080"/>
+        <image name="camera.png" width="100" height="100"/>
+        <image name="ikona3.png" width="500" height="500"/>
+        <image name="info.png" width="100" height="100"/>
+        <image name="kerimo.png" width="1700" height="1131"/>
+        <image name="person5.png" width="1280" height="1024"/>
+        <image name="right_round.png" width="96" height="96"/>
+        <image name="user_male_circle.png" width="100" height="100"/>
+    </resources>
 </document>

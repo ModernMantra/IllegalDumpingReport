@@ -12,8 +12,31 @@
 		445ED10E1BECF37C00DD09D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445ED10D1BECF37C00DD09D4 /* ViewController.m */; };
 		445ED1111BECF37C00DD09D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445ED10F1BECF37C00DD09D4 /* Main.storyboard */; };
 		445ED1131BECF37C00DD09D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445ED1121BECF37C00DD09D4 /* Assets.xcassets */; };
-		445ED1161BECF37C00DD09D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445ED1141BECF37C00DD09D4 /* LaunchScreen.storyboard */; };
 		445ED1211BECF37C00DD09D4 /* DeponijaBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445ED1201BECF37C00DD09D4 /* DeponijaBarTests.m */; };
+		445ED1301BED667D00DD09D4 /* icon_recycling.png in Resources */ = {isa = PBXBuildFile; fileRef = 445ED12F1BED667D00DD09D4 /* icon_recycling.png */; };
+		445ED1321BED694200DD09D4 /* Earth Day Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 445ED1311BED694200DD09D4 /* Earth Day Logo.png */; };
+		445ED1341BED6BCD00DD09D4 /* restart_the_world-01-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 445ED1331BED6BCD00DD09D4 /* restart_the_world-01-512.png */; };
+		445ED1371BED6EF300DD09D4 /* ATLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 445ED1361BED6EF300DD09D4 /* ATLabel.m */; };
+		445ED1391BED750900DD09D4 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 445ED1381BED750900DD09D4 /* forward.png */; };
+		445ED13B1BED758C00DD09D4 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 445ED13A1BED758C00DD09D4 /* right.png */; };
+		447094A51BEDFA9F0018AABA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447094A41BEDFA9F0018AABA /* SecondViewController.m */; };
+		447094A71BEDFEAC0018AABA /* ikona3.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094A61BEDFEAC0018AABA /* ikona3.png */; };
+		447094A91BEE08C20018AABA /* near_me.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094A81BEE08C20018AABA /* near_me.png */; };
+		447094AB1BEE095D0018AABA /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094AA1BEE095D0018AABA /* map.png */; };
+		447094AD1BEE09990018AABA /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094AC1BEE09990018AABA /* info.png */; };
+		447094AF1BEE0A340018AABA /* new_post.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094AE1BEE0A340018AABA /* new_post.png */; };
+		447094B11BEE26220018AABA /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094B01BEE26220018AABA /* camera.png */; };
+		447094B31BEE26920018AABA /* user_male_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094B21BEE26920018AABA /* user_male_circle.png */; };
+		447094B51BEE29310018AABA /* blob.wav in Resources */ = {isa = PBXBuildFile; fileRef = 447094B41BEE29310018AABA /* blob.wav */; };
+		447094B71BEE319A0018AABA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447094B61BEE319A0018AABA /* MobileCoreServices.framework */; };
+		447094BA1BEE76AB0018AABA /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447094B91BEE76AB0018AABA /* infoViewController.m */; };
+		447094BC1BEE7D540018AABA /* wallpaper-iphone-6-plus-grass-green-5-5-inches.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 447094BB1BEE7D540018AABA /* wallpaper-iphone-6-plus-grass-green-5-5-inches.jpg */; };
+		447094BF1BEEA4880018AABA /* politicianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447094BE1BEEA4880018AABA /* politicianViewController.m */; };
+		447094C41BEEB31C0018AABA /* kerimo.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094C01BEEB31C0018AABA /* kerimo.png */; };
+		447094C51BEEB31C0018AABA /* PERSON2.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094C11BEEB31C0018AABA /* PERSON2.png */; };
+		447094C61BEEB31C0018AABA /* PERSON3.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094C21BEEB31C0018AABA /* PERSON3.png */; };
+		447094C71BEEB31C0018AABA /* person5.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094C31BEEB31C0018AABA /* person5.png */; };
+		447094C91BEEC3C50018AABA /* right_round.png in Resources */ = {isa = PBXBuildFile; fileRef = 447094C81BEEC3C50018AABA /* right_round.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +58,38 @@
 		445ED10D1BECF37C00DD09D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		445ED1101BECF37C00DD09D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		445ED1121BECF37C00DD09D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		445ED1151BECF37C00DD09D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		445ED1171BECF37C00DD09D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445ED11C1BECF37C00DD09D4 /* DeponijaBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeponijaBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		445ED1201BECF37C00DD09D4 /* DeponijaBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeponijaBarTests.m; sourceTree = "<group>"; };
 		445ED1221BECF37C00DD09D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445ED12F1BED667D00DD09D4 /* icon_recycling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_recycling.png; sourceTree = "<group>"; };
+		445ED1311BED694200DD09D4 /* Earth Day Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Earth Day Logo.png"; sourceTree = "<group>"; };
+		445ED1331BED6BCD00DD09D4 /* restart_the_world-01-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restart_the_world-01-512.png"; sourceTree = "<group>"; };
+		445ED1351BED6EF300DD09D4 /* ATLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLabel.h; sourceTree = "<group>"; };
+		445ED1361BED6EF300DD09D4 /* ATLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLabel.m; sourceTree = "<group>"; };
+		445ED1381BED750900DD09D4 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		445ED13A1BED758C00DD09D4 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		447094A31BEDFA9F0018AABA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		447094A41BEDFA9F0018AABA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		447094A61BEDFEAC0018AABA /* ikona3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ikona3.png; sourceTree = "<group>"; };
+		447094A81BEE08C20018AABA /* near_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = near_me.png; sourceTree = "<group>"; };
+		447094AA1BEE095D0018AABA /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		447094AC1BEE09990018AABA /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		447094AE1BEE0A340018AABA /* new_post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_post.png; sourceTree = "<group>"; };
+		447094B01BEE26220018AABA /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		447094B21BEE26920018AABA /* user_male_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_male_circle.png; sourceTree = "<group>"; };
+		447094B41BEE29310018AABA /* blob.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blob.wav; sourceTree = "<group>"; };
+		447094B61BEE319A0018AABA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		447094B81BEE76AA0018AABA /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
+		447094B91BEE76AB0018AABA /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
+		447094BB1BEE7D540018AABA /* wallpaper-iphone-6-plus-grass-green-5-5-inches.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wallpaper-iphone-6-plus-grass-green-5-5-inches.jpg"; path = "../../../Downloads/wallpaper-iphone-6-plus-grass-green-5-5-inches.jpg"; sourceTree = "<group>"; };
+		447094BD1BEEA4880018AABA /* politicianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = politicianViewController.h; sourceTree = "<group>"; };
+		447094BE1BEEA4880018AABA /* politicianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = politicianViewController.m; sourceTree = "<group>"; };
+		447094C01BEEB31C0018AABA /* kerimo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kerimo.png; sourceTree = "<group>"; };
+		447094C11BEEB31C0018AABA /* PERSON2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PERSON2.png; sourceTree = "<group>"; };
+		447094C21BEEB31C0018AABA /* PERSON3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PERSON3.png; sourceTree = "<group>"; };
+		447094C31BEEB31C0018AABA /* person5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person5.png; sourceTree = "<group>"; };
+		447094C81BEEC3C50018AABA /* right_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_round.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447094B71BEE319A0018AABA /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,7 @@
 		445ED0FA1BECF37C00DD09D4 = {
 			isa = PBXGroup;
 			children = (
+				447094B61BEE319A0018AABA /* MobileCoreServices.framework */,
 				445ED1051BECF37C00DD09D4 /* DeponijaBar */,
 				445ED11F1BECF37C00DD09D4 /* DeponijaBarTests */,
 				445ED1041BECF37C00DD09D4 /* Products */,
@@ -85,10 +137,18 @@
 				445ED10A1BECF37C00DD09D4 /* AppDelegate.m */,
 				445ED10C1BECF37C00DD09D4 /* ViewController.h */,
 				445ED10D1BECF37C00DD09D4 /* ViewController.m */,
+				447094A31BEDFA9F0018AABA /* SecondViewController.h */,
+				447094A41BEDFA9F0018AABA /* SecondViewController.m */,
+				447094B81BEE76AA0018AABA /* infoViewController.h */,
+				447094B91BEE76AB0018AABA /* infoViewController.m */,
 				445ED10F1BECF37C00DD09D4 /* Main.storyboard */,
+				447094BD1BEEA4880018AABA /* politicianViewController.h */,
+				447094BE1BEEA4880018AABA /* politicianViewController.m */,
+				445ED1351BED6EF300DD09D4 /* ATLabel.h */,
+				445ED1361BED6EF300DD09D4 /* ATLabel.m */,
 				445ED1121BECF37C00DD09D4 /* Assets.xcassets */,
-				445ED1141BECF37C00DD09D4 /* LaunchScreen.storyboard */,
 				445ED1171BECF37C00DD09D4 /* Info.plist */,
+				445ED12C1BED65FA00DD09D4 /* Images */,
 				445ED1061BECF37C00DD09D4 /* Supporting Files */,
 			);
 			path = DeponijaBar;
@@ -109,6 +169,32 @@
 				445ED1221BECF37C00DD09D4 /* Info.plist */,
 			);
 			path = DeponijaBarTests;
+			sourceTree = "<group>";
+		};
+		445ED12C1BED65FA00DD09D4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				447094C81BEEC3C50018AABA /* right_round.png */,
+				447094BB1BEE7D540018AABA /* wallpaper-iphone-6-plus-grass-green-5-5-inches.jpg */,
+				445ED12F1BED667D00DD09D4 /* icon_recycling.png */,
+				445ED1311BED694200DD09D4 /* Earth Day Logo.png */,
+				445ED1331BED6BCD00DD09D4 /* restart_the_world-01-512.png */,
+				445ED1381BED750900DD09D4 /* forward.png */,
+				445ED13A1BED758C00DD09D4 /* right.png */,
+				447094A61BEDFEAC0018AABA /* ikona3.png */,
+				447094A81BEE08C20018AABA /* near_me.png */,
+				447094AA1BEE095D0018AABA /* map.png */,
+				447094AC1BEE09990018AABA /* info.png */,
+				447094AE1BEE0A340018AABA /* new_post.png */,
+				447094B01BEE26220018AABA /* camera.png */,
+				447094B21BEE26920018AABA /* user_male_circle.png */,
+				447094B41BEE29310018AABA /* blob.wav */,
+				447094C01BEEB31C0018AABA /* kerimo.png */,
+				447094C11BEEB31C0018AABA /* PERSON2.png */,
+				447094C21BEEB31C0018AABA /* PERSON3.png */,
+				447094C31BEEB31C0018AABA /* person5.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +277,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445ED1161BECF37C00DD09D4 /* LaunchScreen.storyboard in Resources */,
+				447094B51BEE29310018AABA /* blob.wav in Resources */,
+				445ED1391BED750900DD09D4 /* forward.png in Resources */,
+				447094C71BEEB31C0018AABA /* person5.png in Resources */,
+				447094A91BEE08C20018AABA /* near_me.png in Resources */,
+				447094C51BEEB31C0018AABA /* PERSON2.png in Resources */,
+				447094BC1BEE7D540018AABA /* wallpaper-iphone-6-plus-grass-green-5-5-inches.jpg in Resources */,
+				447094AF1BEE0A340018AABA /* new_post.png in Resources */,
+				445ED13B1BED758C00DD09D4 /* right.png in Resources */,
+				447094AD1BEE09990018AABA /* info.png in Resources */,
+				447094C91BEEC3C50018AABA /* right_round.png in Resources */,
+				447094C61BEEB31C0018AABA /* PERSON3.png in Resources */,
+				447094A71BEDFEAC0018AABA /* ikona3.png in Resources */,
+				447094B11BEE26220018AABA /* camera.png in Resources */,
+				447094B31BEE26920018AABA /* user_male_circle.png in Resources */,
+				447094AB1BEE095D0018AABA /* map.png in Resources */,
+				445ED1301BED667D00DD09D4 /* icon_recycling.png in Resources */,
+				445ED1341BED6BCD00DD09D4 /* restart_the_world-01-512.png in Resources */,
 				445ED1131BECF37C00DD09D4 /* Assets.xcassets in Resources */,
 				445ED1111BECF37C00DD09D4 /* Main.storyboard in Resources */,
+				447094C41BEEB31C0018AABA /* kerimo.png in Resources */,
+				445ED1321BED694200DD09D4 /* Earth Day Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447094A51BEDFA9F0018AABA /* SecondViewController.m in Sources */,
 				445ED10E1BECF37C00DD09D4 /* ViewController.m in Sources */,
+				447094BF1BEEA4880018AABA /* politicianViewController.m in Sources */,
+				447094BA1BEE76AB0018AABA /* infoViewController.m in Sources */,
+				445ED1371BED6EF300DD09D4 /* ATLabel.m in Sources */,
 				445ED10B1BECF37C00DD09D4 /* AppDelegate.m in Sources */,
 				445ED1081BECF37C00DD09D4 /* main.m in Sources */,
 			);
@@ -242,14 +350,6 @@
 				445ED1101BECF37C00DD09D4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		445ED1141BECF37C00DD09D4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				445ED1151BECF37C00DD09D4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -400,6 +500,7 @@
 				445ED1271BECF37C00DD09D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		445ED1281BECF37C00DD09D4 /* Build configuration list for PBXNativeTarget "DeponijaBarTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +509,7 @@
 				445ED12A1BECF37C00DD09D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
