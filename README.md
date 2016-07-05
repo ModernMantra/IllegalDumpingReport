@@ -9,4 +9,4 @@ App provides profiles with small description of all city majors* responsible for
 * Name of city majors are fake in the App, however it can be easily modified (see SecondViewController)
   App is optimised for iPhone 6 screen size. 
 
-https://github.com/ModernMantra/IllegalDumpingReport/blob/master/Screenshots1.png
+https://raw.githubusercontent.com/ModernMantra/IllegalDumpingReport/master/Screenshots1.png
